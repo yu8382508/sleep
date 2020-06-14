@@ -43,8 +43,9 @@
         <form method="get" action="" role="form">
             <div class="col-xs-12">
                 <h2 class="text-center" >睡眠状况自评量表</h2>
-                <p class="scaleP">此量表有10个题目,请仔细阅读每一条，把意思弄明白,
-                    然后根据您近1个月内实际情况，在最适合您状况的答案序号上打钩(√)，请不要空题。</p>
+                <p class="scaleP">这是一个睡眠状况筛查量表，如睡眠有睡眠问题，可以自行检查，末尾点选“得分”按钮可以获得结果。
+                    此量表有10个题目,请仔细阅读每一条，把意思弄明白,
+                    然后根据您近<strong>1个月</strong>内实际情况，在最适合您状况的答案序号上打钩(√)，请不要空题。</p>
             </div>
             <div class="form-group">
                 <div class="col-xs-offset-1 col-xs-10">
@@ -353,10 +354,7 @@
   
     <div class="container btns">
         <div class="btn-group col-xs-offset-2">
-         <button type='button' class="btn btn-default"><a href="/scales/scaleSAS.html">上一页</a></button>
-         <button onclick="sum()" type='button' class="btn btn-default ">得分</button>
-         <button type='button' class="btn btn-default"><a href="javascript:;">下一页</a></button>
- 
+         <button onclick="sum()" type='button' class="btn btn-info btn-lg">得分</button>
         </div>
      </div>
      <div class="container result">
