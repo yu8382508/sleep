@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>特色检查和治疗</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='jquery-3.5.0.min.js'></script>
+    <script src='bootstrap.min.js'></script>
+</head>
+<style>
+    
+</style>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html">首页</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="outpatient.html" class="active" checked="checked">睡眠门诊简介</a></li>
+                    <li><a href="special.html">专家介绍</a></li>
+                    <li><a href="scaleSleep.html">睡眠状况自评量表</a></li>
+                    <li><a href="javascript:;">特色检查和治疗</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+       <h2 class="text-center">特色检查</h2>
+       <p>
+        <strong>多导睡眠监测：</strong>使用多导睡眠监测仪进行睡眠监测，获得睡眠分析、呼吸事件分析、腿动分析等数据，分析导致障碍的病因。
+        多导睡眠监测是睡眠检查的“金标准”，是睡眠门诊的核心技术。
+    </p>
+       <p>
+           <strong>睡眠量表评估：</strong>阿森斯睡眠量表（AIS）和匹兹堡睡眠质量指数量表（PSQI）评估睡眠质量，评估睡眠质量。
+       </p>
+       <p>
+           <strong>植物神经功能稳定性评估：</strong>通过虚拟现实技术评估患者的植物神经功能，以此作为诊断和预后评估的手段。
+       </p>
+    </div>
+    <div class="container">
+        <h2 class="text-center">特色治疗</h2>
+        <p>
+            <strong>药物治疗：</strong>经过评估和检查后为患者提供个体化的药物治疗方案。
+        </p>
+        <p>
+            <strong>神经调控治疗：</strong>失眠治疗仪、脑磁电治疗仪、生物反馈治疗仪、经颅磁刺激仪等设备
+            ，可以为各类睡眠障碍以及不能使用药物治疗的患者提供更多的治疗选择。
+        </p>
+        <p>
+            <strong>持续正压通气治疗及指导：</strong>内科专家为经过评估为呼吸道或其他内科疾病导致睡眠障碍患者提供持续正压通气和内科治疗。
+        </p>
+     </div>
+    
+
+</body>
+
+<script>
+    $('.collapse').collapse()
+    $(window).scroll(function () {
+        //小屏幕下的导航条折叠
+        if ($(window).width() < 768) {
+            //点击导航链接之后，把导航选项折叠起来
+            $("#navbar a").click(function () {
+                $("#navbar").collapse('hide');
+            });
+            //滚动屏幕时，把导航选项折叠起来
+            $(window).scroll(function () {
+                $("#navbar").collapse('hide');
+            });
+        }
+    });
+
+</script>
+
+
+
+
+
+
+</html>

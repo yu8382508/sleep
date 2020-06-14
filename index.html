@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>成都市第四人民医院睡眠门诊</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='jquery-3.5.0.min.js'></script>
+    <script src='bootstrap.min.js'></script>
+</head>
+<style>
+    
+</style>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html">首页</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="outpatient.html" class="active" checked="checked">睡眠门诊简介</a></li>
+                    <li><a href="special.html">专家介绍</a></li>
+                    <li><a href="scaleSleep.html">睡眠状况自评量表</a></li>
+                    <li><a href="therapy.html">特色检查和治疗</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h2 class="text-center">成都市第四人民医院睡眠专家门诊</h2>
+    <div class="container main">
+        <img src="image/night1副本.jpg" alt="">
+        <hr> 
+    </div>
+    <div class="container qr">
+        <div class="qr1">预约挂号：<br>
+            <h4>微信关注“成都市第四人民医院服务号”</h4>  
+        </div>
+        <div class="qr2">睡眠专家门诊二维码:
+            <img src="image/sleep.png" alt="">
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    
+
+</body>
+
+<script>
+    $('.collapse').collapse()
+    $(window).scroll(function () {
+        //小屏幕下的导航条折叠
+        if ($(window).width() < 768) {
+            //点击导航链接之后，把导航选项折叠起来
+            $("#navbar a").click(function () {
+                $("#navbar").collapse('hide');
+            });
+            //滚动屏幕时，把导航选项折叠起来
+            $(window).scroll(function () {
+                $("#navbar").collapse('hide');
+            });
+        }
+    });
+
+</script>
+
+
+
+
+
+
+</html>

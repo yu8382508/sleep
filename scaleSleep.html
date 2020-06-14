@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>睡眠状况自评量表</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='jquery-3.5.0.min.js'></script>
+    <script src='bootstrap.min.js'></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html">首页</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="outpatient.html" >睡眠门诊简介</a></li>
+                    <li><a href="special.html" >专家介绍</a></li>
+                    <li><a href="javascript:;" class="active" checked="checked">睡眠状况自评量表</a></li>
+                    <li><a href="therapy.html">特色检查和治疗</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <form method="get" action="" role="form">
+            <div class="col-xs-12">
+                <h2 class="text-center" >睡眠状况自评量表</h2>
+                <p class="scaleP">此量表有10个题目,请仔细阅读每一条，把意思弄明白,
+                    然后根据您近1个月内实际情况，在最适合您状况的答案序号上打钩(√)，请不要空题。</p>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-10">
+                    <h4>
+                        1、您觉得平时睡眠足够吗？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName1" value="1">
+                            睡眠过多了
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName1" value="2">
+                            睡眠正好
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName1" value="3">
+                            睡眠欠一些
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName1" value="4">
+                            睡眠不够
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName1" value="5">
+                            睡眠时间远远不够
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-11">
+                    <h4>
+                        2、您在睡眠后是否已觉得充分休息过了？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName2" value="1">
+                            觉得充分休息过了
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName2" value="2">
+                            觉得休息过了
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName2" value="3">
+                            觉得休息了一点
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName2" value="4">
+                            不觉得休息过了
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName2" value="5">
+                            觉得一点儿也没休息
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-10">
+                    <h4>
+                        3、您晚上已睡过觉，白天是否打瞌睡？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName3" value="1">
+                            0～5天
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName3" value="2">
+                            很少（6～12天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName3" value="3">
+                            有时（13～18天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName3" value="4">
+                            经常（19～24天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName3" value="5">
+                            总是（25～31天）
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-11">
+                    <h4>
+                        4、您平均每个晚上大约能睡几个小时？
+                    </h4>
+                    <div class="choice col-xs-7">
+                        <label>
+                            <input type="radio" name="radioName4" value="1">
+                            ≥9小时
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName4" value="2">
+                            7～8小时
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName4" value="3">
+                            5～6小时
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName4" value="4">
+                            3～4小时
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName4" value="5">
+                            1～2小时
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-9">
+                    <h4>
+                        5、您是否有入睡困难？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName5" value="1">
+                            0～5天
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName5" value="2">
+                            很少（6～12天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName5" value="3">
+                            有时（13～18天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName5" value="4">
+                            经常（19～24天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName5" value="5">
+                            总是（25～31天）
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-9">
+                    <h4>
+                        6、您入睡后中间是否易醒？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName6" value="1">
+                            0～5天
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName6" value="2">
+                            很少（6～12天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName6" value="3">
+                            有时（13～18天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName6" value="4">
+                            经常（19～24天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName6" value="5">
+                            总是（25～31天）
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-9">
+                    <h4>
+                        7、您在醒后是否难于再入睡？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName7" value="1">
+                            0～5天
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName7" value="2">
+                            很少（6～12天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName7" value="3">
+                            有时（13～18天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName7" value="4">
+                            经常（19～24天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName7" value="5">
+                            总是（25～31天）
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-9">
+                    <h4>
+                        8、您是否多梦或常被噩梦惊醒？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName8" value="1">
+                            0～5天
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName8" value="2">
+                            很少（6～12天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName8" value="3">
+                            有时（13～18天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName8" value="4">
+                            经常（19～24天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName8" value="5">
+                            总是（25～31天）
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-9">
+                    <h4>
+                        9、为了睡眠，您是否吃安眠药？
+                    </h4>
+                    <div class="choice col-xs-9">
+                        <label>
+                            <input type="radio" name="radioName9" value="1">
+                            0～5天
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName9" value="2">
+                            很少（6～12天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName9" value="3">
+                            有时（13～18天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName9" value="4">
+                            经常（19～24天）
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName9" value="5">
+                            总是（25～31天）
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-offset-1 col-xs-9">
+                    <h4>
+                        10、您失眠后心情（心境）如何？
+                    </h4>
+                    <div class="choice col-xs-7">
+                        <label>
+                            <input type="radio" name="radioName10" value="1">
+                            无不适
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName10" value="2">
+                            无所谓
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName10" value="3">
+                            有时心烦、急躁
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName10" value="4">
+                            心慌、气短
+                        </label>
+                        <label>
+                            <input type="radio" name="radioName10" value="5">
+                            乏力、没精神、做事效率低
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+
+  
+    <div class="container btns">
+        <div class="btn-group col-xs-offset-2">
+         <button type='button' class="btn btn-default"><a href="/scales/scaleSAS.html">上一页</a></button>
+         <button onclick="sum()" type='button' class="btn btn-default ">得分</button>
+         <button type='button' class="btn btn-default"><a href="javascript:;">下一页</a></button>
+ 
+        </div>
+     </div>
+     <div class="container result">
+         <p id="pId" class="col-xs-offset-1 col-xs-10"></p>
+     </div>
+ 
+ 
+
+</body>
+
+<script>
+    // function sum() {
+    //     var p = document.getElementById("pId");
+    //     var inputs = document.querySelectorAll('input')
+
+
+
+    //     var radioValue1 = 0;
+    //     var radio1 = document.getElementsByName('radioName1');
+    //     for (var i = 0; i < radio1.length; i++) {
+    //         if (radio1[i].checked) {
+    //             radioValue1 = radio1[i].value;
+    //         }
+    //     }
+
+    //     var radioValue2 = 0;
+    //     var radio2 = document.getElementsByName('radioName2');
+    //     for (var i = 0; i < radio2.length; i++) {
+    //         if (radio2[i].checked) {
+    //             radioValue2 = radio2[i].value;
+    //         }
+    //     }
+    //     var radioValue3 = 0;
+    //     var radio3 = document.getElementsByName('radioName3');
+    //     for (var i = 0; i < radio3.length; i++) {
+    //         if (radio3[i].checked) {
+    //             radioValue3 = radio3[i].value;
+    //         }
+    //     }
+    //     var radioValue4 = 0;
+    //     var radio4 = document.getElementsByName('radioName4');
+    //     for (var i = 0; i < radio4.length; i++) {
+    //         if (radio4[i].checked) {
+    //             radioValue4 = radio4[i].value;
+    //         }
+    //     }
+    //     var radioValue5 = 0;
+    //     var radio5 = document.getElementsByName('radioName5');
+    //     for (var i = 0; i < radio5.length; i++) {
+    //         if (radio5[i].checked) {
+    //             radioValue5 = radio5[i].value;
+    //         }
+    //     }
+    //     var radioValue6 = 0;
+    //     var radio6 = document.getElementsByName('radioName6');
+    //     for (var i = 0; i < radio6.length; i++) {
+    //         if (radio6[i].checked) {
+    //             radioValue6 = radio6[i].value;
+    //         }
+    //     }
+    //     var radioValue7 = 0;
+    //     var radio7 = document.getElementsByName('radioName7');
+    //     for (var i = 0; i < radio7.length; i++) {
+    //         if (radio7[i].checked) {
+    //             radioValue7 = radio7[i].value;
+    //         }
+    //     }
+    //     var radioValue8 = 0;
+    //     var radio8 = document.getElementsByName('radioName8');
+    //     for (var i = 0; i < radio8.length; i++) {
+    //         if (radio8[i].checked) {
+    //             radioValue8 = radio8[i].value;
+    //         }
+    //     }
+    //     var radioValue9 = 0;
+    //     var radio9 = document.getElementsByName('radioName9');
+    //     for (var i = 0; i < radio9.length; i++) {
+    //         if (radio9[i].checked) {
+    //             radioValue9 = radio9[i].value;
+    //         }
+    //     }
+    //     var radioValue10 = 0;
+    //     var radio10 = document.getElementsByName('radioName10');
+    //     for (var i = 0; i < radio10.length; i++) {
+    //         if (radio10[i].checked) {
+    //             radioValue10 = radio10[i].value;
+    //         }
+    //     }
+
+
+
+    //     var sumSleepRadioValue = parseInt(radioValue1) + parseInt(radioValue2) + parseInt(radioValue3) +
+    //         parseInt(radioValue4) + parseInt(radioValue5) + parseInt(radioValue6) + parseInt(radioValue7) +
+    //         parseInt(radioValue8) + parseInt(radioValue9) + parseInt(radioValue10);
+
+    //     if (sumSleepRadioValue <= 20) {
+    //         p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleepRadioValue + "分。" + '没有睡眠障碍'
+    //     } else if (sumSleepRadioValue <= 30) {
+    //         p.style.color = "red";
+    //         p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleepRadioValue + "分。" + "有轻度睡眠障碍，建议咨询睡眠医师"
+    //     } else if (sumSleepRadioValue <= 40) {
+    //         p.style.color = "red";
+    //         p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleepRadioValue + "分。" + "有中度睡眠障碍，建议咨询睡眠医师"
+    //     } else if (sumSleepRadioValue <= 50) {
+    //         p.style.color = "red";
+    //         p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleepRadioValue + "分。" + "有重度睡眠障碍，建议咨询睡眠医师"
+    //     }
+    // }
+    //不能使用直接点点击获取value值的方式。
+    function sum() {
+        var p = document.getElementById('pId');
+        var list = document.querySelectorAll('input');
+        var sumSleep = 0;
+        for (var i = 0; i < list.length; i++) {
+            if (list[i].type == 'radio' && list[i].checked) {
+                sumSleep += parseInt(list[i].value);
+            }
+        }
+        if (sumSleep <= 20) {
+            p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleep + "分。" + '没有睡眠障碍'
+        } else if (sumSleep <= 30) {
+            p.style.color = "red";
+            p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleep + "分。" + "有轻度睡眠障碍，建议咨询睡眠医师"
+        } else if (sumSleep <= 40) {
+            p.style.color = "red";
+            p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleep + "分。" + "有中度睡眠障碍，建议咨询睡眠医师"
+        } else if (sumSleep <= 50) {
+            p.style.color = "red";
+            p.innerText = '睡眠自评量表（SRSS）结果：' + sumSleep + "分。" + "有重度睡眠障碍，建议咨询睡眠医师"
+        }
+    }
+
+
+    $('.collapse').collapse()
+
+$(window).scroll(function () {
+    //小屏幕下的导航条折叠
+    if ($(window).width() < 768) {
+        //点击导航链接之后，把导航选项折叠起来
+        $("#navbar a").click(function () {
+            $("#navbar").collapse('hide');
+        });
+        //滚动屏幕时，把导航选项折叠起来
+        $(window).scroll(function () {
+            $("#navbar").collapse('hide');
+        });
+    }
+});
+
+</script>
+
+
+
+
+
+
+</html>

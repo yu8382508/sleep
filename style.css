@@ -1,0 +1,47 @@
+body {
+    /* color: #fff; */
+    background:#f2f2f2;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    padding: 60px;
+}
+h3{
+    padding: 60px;
+    text-align: center;
+}
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 40px;
+    text-indent: 2em;
+}
+hr {
+    margin: 40px;
+}
+.main {
+    margin-top: 2.133333rem;
+    border-radius: 30px;
+}
+.container img {
+    width: 100%;
+}
+
+.image img {
+    width: 45%;
+    margin-left: 28%;
+
+}
+.qr1, .qr2 {
+    float: left;
+    margin-right: 40px;
+}
+
+.qr2 img{
+   width: 60%; 
+   padding-top: 20px;
+}
+.result {
+    height:200px;
+}
