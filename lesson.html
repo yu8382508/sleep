@@ -3,16 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-    <title>成都市第四人民医院睡眠门诊</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no">
+    <title>睡眠知识</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <script src='jquery-3.5.0.min.js'></script>
     <script src='bootstrap.min.js'></script>
+    <style>
+        
+        .row {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 18px;
+            border-bottom: solid 1px  rgba(242, 243, 245,.9);
+        }
+    </style>
 </head>
-<style>
-    
-</style>
 
 <body>
     <nav class="navbar navbar-default">
@@ -41,30 +47,27 @@
         </div>
     </nav>
     
-
-    <div class="container syy">
-        <img src="image/syy.jpeg">
-    </div>
-    <div class="container main">
-    <h2 class="text-center indexH2">睡眠专家门诊</h2>
-        <img src="image/night1副本.jpg" alt="">
-        <hr> 
-    </div>
-    <div class="container qr">
-        <div class="qr1">预约挂号：<br>
-            <h4>微信关注“成都市第四人民医院服务号”</h4>  
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-4">题目</div>
+            <div class="col-xs-2">作者</div>
+            <div class="col-xs-5">日期</div>
         </div>
-        <div class="qr2">睡眠专家门诊二维码:
-            <img src="image/sleep.png" alt="">
-        </div>
-        <br>
-        <br>
-        <br>
-    </div>
-    
 
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-4"><a href="lesson/sleephygine01.html">正常的睡眠</a></div>
+            <div class="col-xs-2">于跃</div>
+            <div class="col-xs-5">2020年5月28日</div>
+        </div>
+
+       
+        <!-- 上下页按钮 -->
+        <!-- <button class="btn btn-default  col-xs-offset-1"><a href="javascript:;">上一页</a></button>
+        <button class="btn btn-default"><a href="javascript:;">下一页</a></button> -->
+    </div>
+   
 </body>
-
 <script>
     $('.collapse').collapse()
     $(window).scroll(function () {
@@ -80,12 +83,6 @@
             });
         }
     });
-
 </script>
-
-
-
-
-
 
 </html>
