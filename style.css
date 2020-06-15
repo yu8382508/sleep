@@ -19,6 +19,9 @@ p {
 hr {
     margin: 40px;
 }
+.navbar {
+    background:linear-gradient(90deg, #83a4d4 0%,#b6fbff 100% );
+}
 .syy {
     position: absolute;
     width: 20%;
@@ -28,8 +31,7 @@ hr {
     margin-top: 100px;
 }
 .main {
-    margin-top: 2.133333rem;
-    border-radius: 30px;
+    padding-top: 10%;
 }
 .container img {
     width: 100%;
@@ -40,6 +42,7 @@ hr {
     margin-left: 28%;
 
 }
+
 .qr1, .qr2 {
     float: left;
     margin-right: 40px;
