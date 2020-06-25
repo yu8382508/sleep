@@ -21,7 +21,7 @@ hr {
 }
 
 .navbar {
-    background:linear-gradient(90deg, #83a4d4 0%,#b6fbff 100% );
+    background: rgba(128, 128, 128, 0.459);
 }
 .syy {
     position: absolute;
