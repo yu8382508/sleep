@@ -28,9 +28,6 @@ hr {
     width: 20%;
 
 }
-.indexH2 {
-    margin-top: 100px;
-}
 .main {
     padding-top: 10%;
 }
@@ -44,14 +41,9 @@ hr {
 
 }
 
-.qr1, .qr2 {
-    float: left;
-    margin-right: 40px;
-}
-
 .qr2 img{
-   width: 60%; 
-   padding-top: 20px;
+   width: 20%; 
+   padding: 20px 0 60px 0;
 }
 .result {
     height:200px;

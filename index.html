@@ -36,15 +36,16 @@
                     <li><a href="scaleSleep.html">睡眠状况自评量表</a></li>
                     <!-- <li><a href="therapy.html">特色检查和治疗</a></li> -->
                     <li><a href="lesson.html">睡眠知识</a></li>
+                    <li><a href="relax.html">呼吸放松训练</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
-    <div class="container main">
-    
-        <img src="image/night1副本.jpg" alt="">
-        <hr> 
+    <div class="alert alert-warning alert-dismissible fade in show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         <h2 class="text-center indexH2">声明</h2>
         <ul>
             <li>此网为个人网页，用于对睡眠疾病知识的传播。可以扫描二维码（下方）在移动设备观看，
@@ -53,11 +54,21 @@
             <li>某些病例可能为临床多个患者病情的总结，但不会涉及相关个人隐私。</l>
             <li>本网有一些放松治疗方式，请根据自己情况选择，如有不适请立即停止。</li>
         </ul>
+      </div>
+    <div class="container main">
+        <img src="image/night1副本.jpg" alt="">
+        <p>随着生活节奏的加快、各种压力的来袭，睡眠障碍越发常见，造成生活和工作的受损。
+            睡眠医学是一个比较年轻的医学专业，主要处理各种原因导致的睡眠障碍，是精神科、内科、耳鼻喉科、儿科、口腔科等诸多学科的交叉学科，需要专业知识丰富的专业人员进行诊断和治疗。</p>
+        <p>大众对于睡眠知识相对的匮乏，习惯于使用自己认同的方式解决睡眠问题，比如增加白天卧床、睡前饮酒等，这些方式不能解决睡眠问题，甚至倒是失眠慢性化。</p>
+        <p>许多患者对于睡眠疾病的治疗存在误解，对于药物的认知首先是恐惧，担心药物的副反应，担心成瘾，因此闭之不谈，甚至四处乱投医，耽误病情。 </p>
+        <p>有些睡眠疾病表现的是失眠或是嗜睡，如普通的失眠一般，如果不进行专业的评估很难得到准确的诊断，患者四处求医，花费大量时间和金钱疾病却得不到治疗。</p>
+        <p>本网主要是为患者提供睡眠医学知识的平台，希望为患者提供一定的帮助。所有内容不做诊断和治疗用，患者具体诊断和治疗请咨询医生。</p>
+        <p>所有内容均可转载，但请注明出处。</p>
+        <hr> 
+        
+       
     </div>
     <div class="container qr">
-        <!-- <div class="qr1">预约挂号：<br>
-            <h4>微信关注“成都市第四人民医院服务号”</h4>  
-        </div> -->
         <div class="qr2 text-center">
             <img src="image/sleep.png" alt="">
         </div>
@@ -69,6 +80,8 @@
 
 <script>
     $('.collapse').collapse()
+    $().alert()
+    $().alert('close')
     $(window).scroll(function () {
         //小屏幕下的导航条折叠
         if ($(window).width() < 768) {
@@ -82,6 +95,7 @@
             });
         }
     });
+
 
 </script>
 
